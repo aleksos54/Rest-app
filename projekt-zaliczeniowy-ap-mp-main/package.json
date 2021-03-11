@@ -1,0 +1,33 @@
+{
+  "name": "rest-1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Aleks Prochal, Mikołłaj Powrózek",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node .",
+    "watch": "cross-env PORT=9000 DEBUG=knex* nodemon --inspect ."
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "kmex": "^0.1.4",
+    "knex": "^0.21.13",
+    "objection": "^2.2.3",
+    "sqlite3": "^5.0.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "nodemon": "^2.0.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KISiM-AGH/projekt-zaliczeniowy-ap-mp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KISiM-AGH/projekt-zaliczeniowy-ap-mp/issues"
+  },
+  "homepage": "https://github.com/KISiM-AGH/projekt-zaliczeniowy-ap-mp#readme",
+  "keywords": [],
+  "description": ""
+}
